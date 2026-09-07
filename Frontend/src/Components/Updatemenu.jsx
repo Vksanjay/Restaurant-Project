@@ -24,7 +24,7 @@ function Updatemenu({ menudata, onUpdate, onCancel }) {
         e.preventDefault();
         try {
             const res = await fetch(
-                `${API_URL}/addmenu/${menudata._id}`,
+                `${API_URL}/api/addmenu/${menudata._id}`,
                 {
                     method: "PUT",
                     headers: {

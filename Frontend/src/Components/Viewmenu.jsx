@@ -10,7 +10,7 @@ function Viewmenu() {
 const handleDelete = async (id) => {
     try {
         const res = await fetch(
-            `https://restaurant-project-api-ten.vercel.app/addmenu/${id}`,
+            `https://restaurant-project-api-ten.vercel.app/api/addmenu/${id}`,
             {
                 method: "DELETE"
             }
