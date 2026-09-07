@@ -20,7 +20,7 @@ const handleChange = (e) => {
 const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-        const res = await fetch("http://localhost:5000/api/addmenu", {
+        const res = await fetch("https://restaurant-project-api-ten.vercel.app/addmenu", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

@@ -7,7 +7,7 @@ function Updatemenu({ menudata, onUpdate, onCancel }) {
     const [rating, setRating] = useState("");
     const [price, setPrice] = useState("");
 
-    const apiUrl = "http://localhost:5000/api";
+    const apiUrl = "https://restaurant-project-api-ten.vercel.app/";
 
     // Get selected menu data
     useEffect(() => {
