@@ -8,12 +8,12 @@ dotenv.config();
 
 const app=express();
 
-// app.use(cors({
-//     origin: 'http://localhost:5173',
-//     credentials: true // Optional: Add this if you handle cookies/sessions
-// }));
+app.use(cors({
+    origin: 'https://restaurant-project1-psi.vercel.app',
+    credentials: true // Optional: Add this if you handle cookies/sessions
+}));
 
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 
