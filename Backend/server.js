@@ -9,7 +9,7 @@ dotenv.config();
 const app=express();
 
 app.use(cors({
-    origin: 'https://restaurant-project1-psi.vercel.app',
+    origin: 'https://restaurant-project1-psi.vercel.app/',
     credentials: true // Optional: Add this if you handle cookies/sessions
 }));
 
