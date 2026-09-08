@@ -7,12 +7,12 @@ function Viewmenu() {
   const [selectingMenu, setSelectingMenu] = useState(false);
   const [viewmenu, setViewmenu] = useState([]);
   
-  const API_URL = "https://restaurant-project-api-ten.vercel.app/";
+  const API_URL = "https://restaurant-project-api-ten.vercel.app";
   
 const handleDelete = async (id) => {
     try {
         const res = await fetch(
-            `${API_URL}api/addmenu/${id}`,
+            `${API_URL}/api/addmenu/${id}`,
             {
                 method: "DELETE"
             }
@@ -33,7 +33,7 @@ const handleDelete = async (id) => {
   useEffect(() => {
     const fetchAddmenu = async () => {
       try {
-        const res = await fetch(`${API_URL}api/addmenu`);
+        const res = await fetch(`${API_URL}/api/addmenu`);
         const data = await res.json();
         setViewmenu(data);
         console.log(data);
