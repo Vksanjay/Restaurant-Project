@@ -7,7 +7,7 @@ const data=async()=>{
         console.log(`Database: ${conn.connection.name}`);
     } catch (error) {
         console.error(`Error : ${error.message}`);
-        process.exit(1);
+       throw error;
 
     }
 }
