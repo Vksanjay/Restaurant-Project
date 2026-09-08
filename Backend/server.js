@@ -16,7 +16,6 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-app.options("*", cors(corsOptions));
 
 // app.use(cors({
 //     origin: "https://restaurant-project1-psi.vercel.app",
