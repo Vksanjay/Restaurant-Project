@@ -1,6 +1,6 @@
 import { useState } from "react";
 function Addmenu({ onAdd,onCancel }){
-    const API_URL = "https://restaurant-project-api-ten.vercel.app";
+    const API_URL = "https://restaurant-project-backend.vercel.app";
   const [formData, setFormData] = useState({
         image: "",
         food_name: "",

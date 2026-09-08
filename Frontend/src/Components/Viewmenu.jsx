@@ -7,7 +7,7 @@ function Viewmenu() {
   const [selectingMenu, setSelectingMenu] = useState(false);
   const [viewmenu, setViewmenu] = useState([]);
   
-  const API_URL = "https://restaurant-project-api-ten.vercel.app";
+  const API_URL = "https://restaurant-project-backend.vercel.app";
   
 const handleDelete = async (id) => {
     try {
