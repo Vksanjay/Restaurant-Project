@@ -8,11 +8,21 @@ dotenv.config();
 
 const app=express();
 
-app.use(cors({
+const corsOptions = {
     origin: "https://restaurant-project1-psi.vercel.app",
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true
-}));
+};
+
+app.use(cors(corsOptions));
+app.options("*", cors(corsOptions));
+
+// app.use(cors({
+//     origin: "https://restaurant-project1-psi.vercel.app",
+//     methods: ["GET", "POST", "PUT", "DELETE"],
+//     credentials: true
+// }));
 
 // app.use(cors());
 app.use(express.json());
@@ -21,6 +31,9 @@ app.use(express.urlencoded({ extended: true }))
 
 db();
 
+app.use('/api',route)
+
+
 app.use((err, req, res, next) => {
     console.error("SERVER ERROR:", err);
 
@@ -28,8 +41,6 @@ app.use((err, req, res, next) => {
         message: err.message
     });
 });
-
-app.use('/api',route)
 
 app.listen(process.env.PORT,()=>{console.log(`Server is running on port ${process.env.PORT}`)})
 
