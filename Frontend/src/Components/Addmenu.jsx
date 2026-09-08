@@ -1,6 +1,6 @@
 import { useState } from "react";
 function Addmenu({ onAdd,onCancel }){
-  
+    const API_URL = "https://restaurant-project-api-ten.vercel.app/";
   const [formData, setFormData] = useState({
         image: "",
         food_name: "",
@@ -20,7 +20,7 @@ const handleChange = (e) => {
 const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-        const res = await fetch("https://restaurant-project-api-ten.vercel.app/api/addmenu", {
+        const res = await fetch(`${API_URL}api/addmenu`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
