@@ -31,7 +31,7 @@ const handleDelete = async (id) => {
   useEffect(() => {
     const fetchAddmenu = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/addmenu');
+        const res = await fetch('https://restaurant-project-api-ten.vercel.app/api/addmenu');
         const data = await res.json();
         setViewmenu(data);
         console.log(data);
@@ -83,8 +83,8 @@ const handleCancel = () => {
         <div className="container mt-5">
           <div className="row">
   {viewmenu.map((items) => (
-    <div className="col-4" key={items._id}>
-              <div className="card siz ">
+    <div className="col-12 col-sm-6 col-lg-4" key={items._id}>
+                <div className="card siz h-100">
                 <img src={items.image} className="card-img-top siz1 " alt="..."/>
                 <div className="card-body car1 ps-2">
                   <h5 className="card-title">{items.food_name}</h5>

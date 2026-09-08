@@ -7,7 +7,7 @@ function Updatemenu({ menudata, onUpdate, onCancel }) {
     const [rating, setRating] = useState("");
     const [price, setPrice] = useState("");
 
-    const API_URL = "https://restaurant-project-api-ten.vercel.app";
+    const API_URL = "https://restaurant-project-api-ten.vercel.app/";
 
     // Get selected menu data
     useEffect(() => {
@@ -24,7 +24,7 @@ function Updatemenu({ menudata, onUpdate, onCancel }) {
         e.preventDefault();
         try {
             const res = await fetch(
-                `${API_URL}/api/addmenu/${menudata._id}`,
+                `${API_URL}api/addmenu/${menudata._id}`,
                 {
                     method: "PUT",
                     headers: {
