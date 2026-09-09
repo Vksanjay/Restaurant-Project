@@ -83,7 +83,7 @@ const handleCancel = () => {
         }, 0);
     }}>Add Menu</button>
         <div className="container mt-5">
-          <div className="row">
+          <div className="row g-4">
   {viewmenu.map((items) => (
     <div className="col-12 col-sm-6 col-lg-4" key={items._id}>
                 <div className="card siz h-100">

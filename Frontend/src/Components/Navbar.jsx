@@ -11,19 +11,19 @@ function Navbar(){
     </button>
     <div className="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
       <ul className="navbar-nav">
-        <li className="nav-item fon2">
+        <li className="nav-item">
           <a className="nav-link fon1" href="#home">Home</a>
         </li>
-        <li className="nav-item fon2">
+        <li className="nav-item">
           <a className="nav-link fon1" href="#about">About Us</a>
         </li>
-        <li className="nav-item fon2">
+        <li className="nav-item">
           <a className="nav-link fon1" href="#viewmenu">View Menu</a>
         </li>
-        <li className="nav-item fon2">
+        <li className="nav-item">
           <a className="nav-link fon1" href="#gallery">Gallery</a>
         </li>
-        <li className="nav-item fon2">
+        <li className="nav-item">
           <a className="nav-link fon1" href="#contact">Contact Us</a>
         </li>
       </ul>
