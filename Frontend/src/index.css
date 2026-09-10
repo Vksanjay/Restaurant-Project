@@ -275,12 +275,12 @@ html {
 .car1 {
     padding: 15px;
 }
-.but2 {
+.but3 {
     background-color: transparent;
     color: #ffc107;
     border: 1px solid #ffc107;
 }
-.but2:hover {
+.but3:hover {
     background-color: #ffc107;
     color: #111;
 }
