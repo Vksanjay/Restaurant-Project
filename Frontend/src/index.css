@@ -16,13 +16,13 @@
 .fon1 {
     color: white !important;
     font-weight: 500;
-    padding: 0px 20px !important;
+    padding: 0px 25px !important;
 }
 .fon1:hover {
     color: #ffc107 !important;
 }
 .navbar-collapse {
-    padding-right: 30px;
+    padding-right: 40px;
 }
 @media (max-width: 991px) {
     .logo {
