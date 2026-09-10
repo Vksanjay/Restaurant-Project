@@ -55,7 +55,7 @@ function Updatemenu({ menudata, onUpdate, onCancel }) {
             <section className="updatepage">
                 <h2 className="fon9">UPDATE MENU</h2>
                 <form onSubmit={handleUpdate}>
-                    <div className="col-8 fon8">
+                    <div className="update-form">
                         <div className="mb-3">
                             <label className="form-label">Image URL</label>
                             <input type="text" className="form-control" value={image} onChange={(e) => setimage(e.target.value)} />
@@ -89,60 +89,3 @@ function Updatemenu({ menudata, onUpdate, onCancel }) {
 }
 
 export default Updatemenu;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//     return(
-//         <>
-//         <section className="updatepage">
-//         <h2 className="fon9">UPDATE MENU</h2>
-//         <form>
-//           <div className="col-8 fon8">
-//   <div className="mb-3">
-//     <label className="form-label">Image URL</label>
-//     <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" onChange={(e)=>setimage(e.target.value)} value={image} />
-//   </div>
-//   <div className="mb-3">
-//     <label className="form-label">Food Name</label>
-//     <input type="text" className="form-control" id="exampleInputPassword1" onChange={(e)=>setfood_name(e.target.value)} value={food_name}/>
-//   </div>
-//    <div className="mb-3">
-//     <label className="form-label">Rating</label>
-//     <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" onChange={(e)=>setRating(e.target.value)} value={rating} />
-//   </div>
-//   <div className="mb-3">
-//     <label className="form-label">Price</label>
-//     <input type="text" className="form-control" id="exampleInputPassword1" onChange={(e)=>setPrice(e.target.value)} value={price}/>
-//   </div>
-//   <div className="mb-3">
-//   <label className="form-label">Description</label>
-//   <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" onChange={(e)=>setdescription(e.target.value)} value={description}></textarea>
-// </div>
-// <div className="text-center">
-//   <button type="submit" className="btn btn-primary" onClick={handleUpdate}>UPDATE MENU</button>
-//   </div>
-//   </div>
-// </form>
-// </section>
-//         </>
-//     )
-// }
-// export default Updatemenu;

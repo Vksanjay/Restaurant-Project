@@ -75,14 +75,12 @@ const handleCancel = () => {
 ) : (
     <section className="menupage">
         <h2 className="fon4 res">Restaurant Menu</h2>
-        <button className="btn btn-primary but1" type="button" onClick={() => {
-          setSelectingMenu(true);
-          setTimeout(() => {
-            document.getElementById("viewmenu")?.scrollIntoView({
-              behavior: "smooth",block: "start"});
-        }, 0);
-    }}>Add Menu</button>
-        <div className="container mt-5">
+        <div className="container">
+    <div className="row">
+        <div className="col-12 col-lg-4 offset-lg-8 text-end mb-2">
+        <button className="btn btn-primary but1" type="button" onClick={() => {setSelectingMenu(true);}}>Add Menu</button>
+    </div>
+    </div>
           <div className="row g-4">
   {viewmenu.map((items) => (
     <div className="col-12 col-sm-6 col-lg-4" key={items._id}>
@@ -95,13 +93,7 @@ const handleCancel = () => {
                   </svg>{items.rating}</p>
                   <p>{items.price}</p>
                   <p>{items.description}</p>
-                   <button className="btn but2 me-3 ms-2" type="button" onClick={() => {
-                    setSelectedMenu(items);
-                    setTimeout(() => {
-                      document.getElementById("viewmenu")?.scrollIntoView({
-                        behavior: "smooth",block: "start"});
-    }, 0);
-  }}>Update</button>
+                   <button className="btn but2 me-3 ms-2" type="button" onClick={() => {setSelectedMenu(items);}}>Update</button>
                   <button className="btn but2" type="button" onClick={() => handleDelete(items._id)}>Delete</button>
                 </div>
               </div>

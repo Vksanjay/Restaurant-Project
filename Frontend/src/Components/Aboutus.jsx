@@ -1,4 +1,4 @@
-import about1 from "../assets/about1.png";
+import about1 from "../assets/about.png";
 
 function Aboutus() {
   return (
@@ -9,14 +9,14 @@ function Aboutus() {
       <div className="container py-2">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <img src={about1} className="img-fluid rounded" alt="Food Heaven Restaurant"/>
+            <img src={about} className="img-fluid rounded" alt="Food Heaven Restaurant"/>
           </div>
           <div className="col-md-6">
             <h2 className="text-warning fon10">Where Every Bite Feels Like Heaven</h2>
             <p className="mt-3 fon6">At Food Heaven, we believe that great food brings people together. Our restaurant is dedicated to serving delicious, freshly prepared dishes made with quality ingredients and authentic flavors.</p>
             <p className="fon6">From mouth-watering biryanis and flavorful curries to crispy starters, pizzas, and delightful desserts, we offer something for every taste.</p>
             <p className="fon6">Our chefs prepare every dish with passion and attention to detail, while our friendly team makes sure you have a warm and memorable dining experience.</p>
-            <button className="btn btn-primary mt-2 but2">Explore Our Menu</button>
+            <button href="#viewmenu" className="btn btn-primary mt-2 but2">Explore Our Menu</button>
           </div>
         </div>
         <div className="row text-center mt-5">

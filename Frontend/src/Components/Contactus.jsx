@@ -5,7 +5,7 @@ function Contactus(){
           <h2 className="fon3">Contact us</h2>
           <h1 className="fon3">YOUR DETAILS</h1>
 
-          <div className="col-6 cont1">
+          <div className="contact-form">
         <form className="row g-3">
   <div className="col-md-6">
     <label className="form-label">First Name</label>

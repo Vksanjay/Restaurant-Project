@@ -4,7 +4,6 @@ function Gallery() {
   return (
     <>
       <section className="gallerypage">
-        <Navbar />
         <div className="gallery-heading">
           <h1>Food Gallery</h1>
           <p>Explore Our Delicious Food Collection</p>
