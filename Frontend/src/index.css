@@ -111,6 +111,11 @@
 .fon7 {
     color: #ffc107;
 }
+.but2{
+    background-color: transparent;
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
 .aboutpage img {
     width: 100%;
 }
@@ -174,9 +179,6 @@ html {
     display: block;
     width: fit-content;
     margin: 8px auto 0;
-    background-color: transparent;
-    color: #ffc107;
-    border: 1px solid #ffc107;
     }
     .box .fon6 {
         max-width: 230px;
