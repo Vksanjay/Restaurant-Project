@@ -7,7 +7,7 @@ function Gallery() {
           <p>Explore Our Delicious Food Collection</p>
         </div>
         <div className="gallery-buttons">
-          <button className="gallery-btn active" type="button" data-bs-target="#foodGallery" data-bs-slide-to="0">Main Course</button>
+          <button className="gallery-btn" type="button" data-bs-target="#foodGallery" data-bs-slide-to="0">Main Course</button>
           <button className="gallery-btn" type="button" data-bs-target="#foodGallery" data-bs-slide-to="1">Starters</button>
           <button className="gallery-btn" type="button" data-bs-target="#foodGallery" data-bs-slide-to="2">Kitchen</button>
           <button className="gallery-btn" type="button" data-bs-target="#foodGallery" data-bs-slide-to="3">Desserts</button>
@@ -15,7 +15,7 @@ function Gallery() {
 
         <div id="foodGallery" className="carousel slide gallery-carousel" data-bs-ride="false">
           <div className="carousel-inner">
-            <div className="carousel-item">
+            <div className="carousel-item active">
               <div className="category-title">
                 <h2>Main Course</h2>
                 <p>Delicious and flavorful main dishes</p>

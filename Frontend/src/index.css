@@ -8,7 +8,7 @@
 }
 .logo {
     font-family: Georgia, serif;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: bold;
     color: white !important;
     padding-left: 50px;
@@ -16,10 +16,13 @@
 .fon1 {
     color: white !important;
     font-weight: 500;
-    padding: 0px 25px !important;
+    padding: 0px 20px !important;
 }
 .fon1:hover {
     color: #ffc107 !important;
+}
+.navbar-collapse {
+    padding-right: 30px;
 }
 @media (max-width: 991px) {
     .logo {
@@ -35,6 +38,7 @@
     .navbar-collapse {
         background-color: rgba(0, 0, 0, 0.95);
         text-align: center;
+        padding-right: 0px;
     }
     .fon1 {
         padding: 10px !important;
@@ -114,7 +118,10 @@
     border: 1px solid #ffc107;
     padding: 20px;
     border-radius: 8px;
-    margin-right: 10px;
+}
+.col-md-4 {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 html {
     scroll-behavior: smooth;
@@ -164,16 +171,17 @@ html {
         margin-top: 40px !important;
     }
     .but2{
-        margin-left: 15px;
-        margin-right: 15px;
+    display: block;
+    width: fit-content;
+    margin: 8px auto 0;
     }
     .box .fon6 {
         max-width: 230px;
         margin: 0 auto;
     }
     .box{
-        margin-left: 15px;
-        margin-right: 15px;
+         width: fit-content;
+        margin: 0 auto;
     }
 }
 .addmenupage {
