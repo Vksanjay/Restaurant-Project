@@ -2,7 +2,7 @@ function Contactus(){
     return(
         <>
         <section className="contactpage">
-          <h2 className="fon3">Contact us</h2>
+          <h2 className="fon3 mb-3">Contact</h2>
           <h1 className="fon3">YOUR DETAILS</h1>
 
           <div className="contact-form">

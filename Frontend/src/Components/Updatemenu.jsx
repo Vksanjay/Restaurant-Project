@@ -53,7 +53,7 @@ function Updatemenu({ menudata, onUpdate, onCancel }) {
     return (
         <>
             <section className="updatepage">
-                <h2 className="fon9">UPDATE MENU</h2>
+                <h2 className="fon9">Update Dish</h2>
                 <form onSubmit={handleUpdate}>
                     <div className="update-form">
                         <div className="mb-3">

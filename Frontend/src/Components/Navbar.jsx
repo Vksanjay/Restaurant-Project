@@ -15,16 +15,16 @@ function Navbar(){
           <a className="nav-link fon1" href="#home">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link fon1" href="#about">About Us</a>
+          <a className="nav-link fon1" href="#about">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link fon1" href="#viewmenu">View Menu</a>
+          <a className="nav-link fon1" href="#viewmenu">Menu</a>
         </li>
         <li className="nav-item">
           <a className="nav-link fon1" href="#gallery">Gallery</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link fon1" href="#contact">Contact Us</a>
+          <a className="nav-link fon1" href="#contact">Contact</a>
         </li>
       </ul>
     </div>

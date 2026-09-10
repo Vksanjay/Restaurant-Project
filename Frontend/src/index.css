@@ -11,12 +11,12 @@
     font-size: 24px;
     font-weight: bold;
     color: white !important;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 .fon1 {
     color: white !important;
     font-weight: 500;
-    padding: 8px 20px !important;
+    padding: 4px 25px !important;
 }
 .fon1:hover {
     color: #ffc107 !important;
@@ -30,7 +30,7 @@
         border: 1px solid #ffc107 !important;
     }
     .navbar-toggler-icon {
-        filter: invert(1);
+        filter: brightness(0) invert(1);
     }
     .navbar-collapse {
         background-color: rgba(0, 0, 0, 0.95);
@@ -86,7 +86,7 @@
     min-height: 100vh;
     background-color: rgba(5, 5, 5, 0.986);
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .fon3 {
     text-align: center;
@@ -110,6 +110,10 @@
 }
 .aboutpage img {
     width: 100%;
+}
+.box {
+    border: 1px solid #ffc107;
+    padding: 20px;
 }
 html {
     scroll-behavior: smooth;
@@ -152,6 +156,10 @@ html {
     .aboutpage .row.text-center {
         margin-top: 40px !important;
     }
+    .box .fon6 {
+        max-width: 230px;
+        margin: 0 auto;
+    }
 }
 .addmenupage {
     height: 100vh;
@@ -165,13 +173,12 @@ html {
 .fon3 {
     text-align: center;
     color: #ffc107;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .con {
     width: 50%;
-    margin-left: 15px;
-    margin-top: 20px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 @media (max-width: 768px) {
     .addmenupage {
@@ -216,7 +223,7 @@ html {
     font-weight: bold;
     font-size: 14px;
     padding: 6px 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .siz {
     background-color: #111;
@@ -299,15 +306,13 @@ html {
 }
 .fon9 {
     text-align: center;
-    padding-top: 50px;
     margin-bottom: 15px;
     color: #ffc107;
 }
 .update-form {
     width: 50%;
-    margin-left: 15px;
-    margin-top: 20px;
-    margin-right: 10px;
+    margin-top: 15px;
+    padding: 0 20px;
 }
 @media (max-width: 768px) {
     .updatepage {
@@ -349,7 +354,7 @@ html {
 }
 .gallery-heading {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
     margin-bottom: 25px;
 }
 .gallery-heading h1 {
@@ -512,9 +517,9 @@ html {
 }
 .contact-form {
     width: 50%;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 0 15px;
 }
 .contact-form .form-label {
     color: white;
@@ -544,7 +549,7 @@ html {
     }
     .contact-form {
         width: 85%;
-        margin-top: 25px auto 0;
+        margin: 25px auto 0;
     }
 }
 @media (max-width: 576px) {
@@ -559,6 +564,7 @@ html {
     .contact-form {
         width: 100%;
         margin-top: 20px;
+        padding: 0 15px;
     }
     .contact-form .form-label {
         font-size: 14px;
