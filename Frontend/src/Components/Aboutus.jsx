@@ -20,21 +20,21 @@ function Aboutus() {
           </div>
         </div>
         <div className="row text-center mt-5">
-          <div className="col-md-4 me-2">
+          <div className="col-md-4 mb-2">
             <div className="box">
             <h2>🍴</h2>
             <h4 className="fon7">Fresh Ingredients</h4>
             <p className="fon6">We use fresh and quality ingredients in every dish.</p>
           </div>
           </div>
-          <div className="col-md-4 me-2">
+          <div className="col-md-4 mb-2">
             <div className="box">
             <h2>👨‍🍳</h2>
             <h4 className="fon7">Expert Chefs</h4>
             <p className="fon6">Our chefs create the delicious dishes with passion.</p>
           </div>
           </div>
-          <div className="col-md-4 me-2">
+          <div className="col-md-4 mb-2">
             <div className="box">
             <h2>❤️</h2>
             <h4 className="fon7">Made With Love</h4>

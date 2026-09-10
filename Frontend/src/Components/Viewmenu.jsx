@@ -86,14 +86,14 @@ const handleCancel = () => {
     <div className="col-12 col-sm-6 col-lg-4" key={items._id}>
                 <div className="card siz h-100">
                 <img src={items.image} className="card-img-top siz1 " alt="..."/>
-                <div className="card-body car1 ps-2">
+                <div className="card-body car1 ps-3">
                   <h5 className="card-title">{items.food_name}</h5>
                   <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="yellow" className="bi bi-star-fill" viewBox="0 0 16 16">
                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
                   </svg>{items.rating}</p>
                   <p>{items.price}</p>
                   <p>{items.description}</p>
-                  <div className="d-flex align-items-center gap-2">
+                  <div className="d-flex gap-2">
                   <button className="btn but2" type="button" onClick={() => { setSelectedMenu(items); setTimeout(() => { document.getElementById("viewmenu")?.scrollIntoView({ behavior: "smooth",block: "start"}); }, 0); }}>Update</button>
                   <button className="btn but2" type="button" onClick={() => handleDelete(items._id)}>Delete</button>
                   </div>
