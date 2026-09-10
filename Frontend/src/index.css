@@ -160,7 +160,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .fon3 {
     text-align: center;
@@ -171,6 +171,7 @@ html {
     width: 50%;
     margin-left: 15px;
     margin-top: 20px;
+    margin-right: 10px;
 }
 @media (max-width: 768px) {
     .addmenupage {
@@ -199,8 +200,8 @@ html {
 .menupage {
     min-height: 100vh;
     background-color: #080808;
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 .res {
     text-align: center;
@@ -215,6 +216,7 @@ html {
     font-weight: bold;
     font-size: 14px;
     padding: 6px 15px;
+    margin-bottom: 10px;
 }
 .siz {
     background-color: #111;
@@ -287,25 +289,25 @@ html {
     }
 }
 .updatepage {
-    min-height: 100vh;
+    height: 100vh;
     background-image: url('./assets/update.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding-top: 1px;
-    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .fon9 {
     text-align: center;
     padding-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     color: #ffc107;
 }
 .update-form {
     width: 50%;
     margin-left: 15px;
     margin-top: 20px;
+    margin-right: 10px;
 }
 @media (max-width: 768px) {
     .updatepage {
@@ -343,7 +345,7 @@ html {
     min-height: 100vh;
     background-color: #080808;
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 .gallery-heading {
     text-align: center;
@@ -496,9 +498,8 @@ html {
     }
 }
 .contactpage {
-    min-height: 100vh;
+    height: 100vh;
     padding-top: 50px;
-    padding-bottom: 50px;
     background-image: url('./assets/contact.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -510,9 +511,10 @@ html {
     color: #ffc107;
 }
 .contact-form {
-    width: 60%;
+    width: 50%;
     margin-left: 15px;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
 }
 .contact-form .form-label {
     color: white;
@@ -542,7 +544,7 @@ html {
     }
     .contact-form {
         width: 85%;
-        margin-top: 25px;
+        margin-top: 25px auto 0;
     }
 }
 @media (max-width: 576px) {

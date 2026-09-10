@@ -16,7 +16,7 @@ function Aboutus() {
             <p className="mt-3 fon6">At Food Heaven, we believe that great food brings people together. Our restaurant is dedicated to serving delicious, freshly prepared dishes made with quality ingredients and authentic flavors.</p>
             <p className="fon6">From mouth-watering biryanis and flavorful curries to crispy starters, pizzas, and delightful desserts, we offer something for every taste.</p>
             <p className="fon6">Our chefs prepare every dish with passion and attention to detail, while our friendly team makes sure you have a warm and memorable dining experience.</p>
-            <button href="#viewmenu" className="btn btn-primary mt-2 but2">Explore Our Menu</button>
+            <a href="#viewmenu" className="btn btn-primary mt-2 but2">Explore Our Menu</a>
           </div>
         </div>
         <div className="row text-center mt-5">

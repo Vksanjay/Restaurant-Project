@@ -12,24 +12,19 @@ function Navbar(){
     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link fon1" href="#home"  data-bs-toggle="collapse"
-        data-bs-target="#navbarNav">Home</a>
+          <a className="nav-link fon1" href="#home">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link fon1" href="#about"  data-bs-toggle="collapse"
-        data-bs-target="#navbarNav">About Us</a>
+          <a className="nav-link fon1" href="#about">About Us</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link fon1" href="#viewmenu"  data-bs-toggle="collapse"
-        data-bs-target="#navbarNav">View Menu</a>
+          <a className="nav-link fon1" href="#viewmenu">View Menu</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link fon1" href="#gallery"  data-bs-toggle="collapse"
-        data-bs-target="#navbarNav">Gallery</a>
+          <a className="nav-link fon1" href="#gallery">Gallery</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link fon1" href="#contact"  data-bs-toggle="collapse"
-        data-bs-target="#navbarNav">Contact Us</a>
+          <a className="nav-link fon1" href="#contact">Contact Us</a>
         </li>
       </ul>
     </div>
