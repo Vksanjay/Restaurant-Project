@@ -93,7 +93,7 @@ const handleCancel = () => {
                   </svg>{items.rating}</p>
                   <p>{items.price}</p>
                   <p>{items.description}</p>
-                  <div className="d-flex gap-2">
+                  <div className="d-flex gap-1">
                   <button className="btn but2" type="button" onClick={() => { setSelectedMenu(items); setTimeout(() => { document.getElementById("viewmenu")?.scrollIntoView({ behavior: "smooth",block: "start"}); }, 0); }}>Update</button>
                   <button className="btn but2" type="button" onClick={() => handleDelete(items._id)}>Delete</button>
                   </div>
