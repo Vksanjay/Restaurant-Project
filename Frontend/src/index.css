@@ -16,7 +16,7 @@
 .fon1 {
     color: white !important;
     font-weight: 500;
-    padding: 3px 25px !important;
+    padding: 0px 25px !important;
 }
 .fon1:hover {
     color: #ffc107 !important;
@@ -55,7 +55,7 @@
     margin-top: 150px;
 }
 .home-description {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.7;
     color: #f5f5f5;
     max-width: 600px;
@@ -63,7 +63,7 @@
 @media (max-width: 1100px) {
     .home-title {
         font-size: 45px;
-        margin-top: 120px;
+        margin-top: 130px;
     }
     .home-description {
         font-size: 20px;
@@ -72,7 +72,7 @@
 @media (max-width: 576px) {
     .home-title {
         font-size: 32px;
-        margin-top: 80px;
+        margin-top: 120px;
         text-align: center;
     }
     .home-description {
@@ -84,7 +84,7 @@
 .aboutpage {
     min-height: 100vh;
     background-color: rgba(5, 5, 5, 0.986);
-    padding-top: 50px;
+    padding-top: 52px;
     padding-bottom: 20px;
 }
 .fon3 {
@@ -114,6 +114,7 @@
     border: 1px solid #ffc107;
     padding: 20px;
     border-radius: 8px;
+    margin-right: 10px;
 }
 html {
     scroll-behavior: smooth;
@@ -162,9 +163,17 @@ html {
     .aboutpage .row.text-center {
         margin-top: 40px !important;
     }
+    .but2{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
     .box .fon6 {
         max-width: 230px;
         margin: 0 auto;
+    }
+    .box{
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 .addmenupage {
@@ -174,7 +183,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding-top: 50px;
+    padding-top: 51px;
 }
 .fon3 {
     text-align: center;
@@ -188,7 +197,7 @@ html {
 }
 @media (max-width: 768px) {
     .addmenupage {
-        padding-top: 70px;
+        padding-top: 130px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -198,22 +207,21 @@ html {
 }
 @media (max-width: 576px) {
     .addmenupage {
-        padding-top: 60px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-top: 80px;
     }
     .fon3 {
         font-size: 28px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
     .con {
         width: 100%;
+        padding: 0 15px;
     }
 }
 .menupage {
     min-height: 100vh;
     background-color: #080808;
-    padding-top: 50px;
+    padding-top: 52px;
     padding-bottom: 20px;
 }
 .res {
@@ -308,7 +316,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding-top: 50px;
+    padding-top: 51px;
 }
 .fon9 {
     text-align: center;
@@ -326,7 +334,7 @@ html {
     }
     .fon9 {
         font-size: 30px;
-        padding-top: 80px;
+        padding-top: 130px;
     }
     .update-form {
         width: 85%;
@@ -335,8 +343,8 @@ html {
 @media (max-width: 576px) {
     .fon9 {
         font-size: 26px;
-        padding-top: 60px;
-        margin-bottom: 25px;
+        padding-top: 80px;
+        margin-bottom: 10px;
     }
     .update-form {
         width: 100%;
@@ -360,7 +368,7 @@ html {
 }
 .gallery-heading {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 51px;
     margin-bottom: 25px;
 }
 .gallery-heading h1 {
@@ -451,7 +459,7 @@ html {
 }
 @media (max-width: 992px) {
     .gallery-heading {
-        padding-top: 70px;
+        padding-top: 80px;
     }
     .gallery-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -510,7 +518,7 @@ html {
 }
 .contactpage {
     height: 100vh;
-    padding-top: 50px;
+    padding-top: 51px;
     background-image: url('./assets/contact.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -548,7 +556,7 @@ html {
 }
 @media (max-width: 768px) {
     .contactpage {
-        padding-top: 80px;
+        padding-top: 130px;
     }
     .contactpage .fon3 {
         font-size: 30px;

@@ -78,7 +78,7 @@ const handleCancel = () => {
         <div className="container">
     <div className="row">
         <div className="col-12 col-lg-4 offset-lg-8 text-end mb-2">
-        <button className="btn btn-primary but1" type="button" onClick={() => {setSelectingMenu(true);}}>Add Menu</button>
+        <button className="btn btn-primary but1" type="button" onClick={() => {setSelectingMenu(true);}}>Add Dish</button>
     </div>
     </div>
           <div className="row g-4">

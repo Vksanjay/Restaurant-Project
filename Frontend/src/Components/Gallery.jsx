@@ -1,5 +1,3 @@
-import Navbar from "./Navbar";
-
 function Gallery() {
   return (
     <>
@@ -17,7 +15,7 @@ function Gallery() {
 
         <div id="foodGallery" className="carousel slide gallery-carousel" data-bs-ride="false">
           <div className="carousel-inner">
-            <div className="carousel-item active">
+            <div className="carousel-item">
               <div className="category-title">
                 <h2>Main Course</h2>
                 <p>Delicious and flavorful main dishes</p>
