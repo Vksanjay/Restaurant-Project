@@ -1,4 +1,3 @@
-
 const addmenumodel=require('../../Model/AddmenuSchema/addmenuschema');
 
 exports.getaddmenu=async(req,res)=>{
@@ -62,22 +61,3 @@ exports.deleteaddmenu = async (req, res) => {
         });
     }
 };
-
-
-
-
-
-
-
-
-// exports.deleteaddmenu=async(req,res)=>{
-//     try{
-//     const id=req.params.id;
-//     await addmenumodel.findByIdAndDelete(id);
-//     res.status(204).json({message:"Deleted Successfully"});
-//     }
-//     catch(error){
-//         console.log(error);
-//         res.status(500).json({message:error.message});
-//     }
-// }

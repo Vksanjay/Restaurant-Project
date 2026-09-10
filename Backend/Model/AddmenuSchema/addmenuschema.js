@@ -1,4 +1,3 @@
-
 const mongoose=require('mongoose');
 
 const AddMenuSchema=new mongoose.Schema({
@@ -22,7 +21,6 @@ const AddMenuSchema=new mongoose.Schema({
         type: String
     
     }
-     // Disables the creation of __v completely
 },{ versionKey: false });
 
 const addmenumodel=mongoose.model("addmenus",AddMenuSchema);
