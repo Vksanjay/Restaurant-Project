@@ -81,7 +81,6 @@
     }
     .home-description {
         font-size: 16px;
-        text-align: center;
         padding: 0 10px;
     }
 }
@@ -198,7 +197,7 @@ html {
     color: white;
     padding-top: 51px;
 }
-.fon3 {
+.fon8{
     text-align: center;
     color: #ffc107;
     margin-bottom: 15px;
@@ -230,7 +229,7 @@ html {
     .addmenupage {
         padding-top: 1px;
     }
-    .fon3{
+    .fon8{
         font-size: 30px;
         padding-top: 130px;
     }
@@ -239,7 +238,7 @@ html {
     }
 }
 @media (max-width: 576px) {
-    .fon3{
+    .fon8{
         font-size: 26px;
         padding-top: 80px;
         margin-bottom: 10px;
@@ -583,7 +582,7 @@ html {
     background-size: cover;
     color: white;
 }
-.contactpage .fon3 {
+.contactpage .fon4 {
     text-align: center;
     color: #ffc107;
 }
@@ -614,7 +613,7 @@ html {
     .contactpage {
         padding-top: 130px;
     }
-    .contactpage .fon3 {
+    .contactpage .fon4 {
         font-size: 30px;
     }
     .contact-form {
@@ -628,7 +627,7 @@ html {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .contactpage .fon3 {
+    .contactpage .fon4 {
         font-size: 25px;
     }
     .contact-form {

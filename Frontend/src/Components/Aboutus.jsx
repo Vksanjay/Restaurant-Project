@@ -24,7 +24,7 @@ function Aboutus() {
             <div className="box">
               <h2>🍴</h2>
               <h4 className="fon7">Fresh Ingredients</h4>
-              <p className="fon6">We use fresh and quality ingredients in every dish.</p>
+              <p className="fon6">We use a fresh and quality ingredients in every dish.</p>
             </div>
           </div>
           <div className="col-md-4 mb-3">

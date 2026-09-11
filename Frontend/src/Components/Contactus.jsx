@@ -2,8 +2,8 @@ function Contactus(){
     return(
         <>
         <section className="contactpage">
-          <h2 className="fon3 mb-3">Contact</h2>
-          <h1 className="fon3">YOUR DETAILS</h1>
+          <h2 className="fon4 mb-3">Contact</h2>
+          <h1 className="fon4">YOUR DETAILS</h1>
           <div className="contact-form">
             <form className="row g-3">
               <div className="col-md-6">

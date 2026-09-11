@@ -50,7 +50,7 @@ const handleSubmit = async (e) => {
     return(
         <>
         <section className="addmenupage">
-            <h2 className="fon3">Add Dish</h2>
+            <h2 className="fon8">Add Dish</h2>
             <form onSubmit={handleSubmit}>
                 <div className="addmenu-form">
                     <div className="mb-3">
