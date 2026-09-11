@@ -50,7 +50,7 @@ const handleSubmit = async (e) => {
     return(
         <>
         <section className="addmenupage">
-            <h2 className="fon8">Add Dish</h2>
+            <h2 className="fon8">Add New Dish</h2>
             <form onSubmit={handleSubmit}>
                 <div className="addmenu-form">
                     <div className="mb-3">
@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
                     </div>
                     <div className="text-center">
                         <button type="button" className="btn btn-secondary mb-5 me-3" onClick={onCancel}>CANCEL</button>
-                        <button type="submit" className="btn btn-primary mb-5">ADD MENU</button>
+                        <button type="submit" className="btn btn-primary mb-5">ADD DISH</button>
                     </div>
                 </div>
             </form>
