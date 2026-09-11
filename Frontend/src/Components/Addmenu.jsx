@@ -50,34 +50,36 @@ const handleSubmit = async (e) => {
     return(
         <>
         <section className="addmenupage">
-        <h2 className="fon3">Add Dish</h2>
-        <form className="col-6 con" onSubmit={handleSubmit}>
-  <div className="mb-3">
-    <label className="form-label">Image URL</label>
-    <input type="text" className="form-control" id="url" value={formData.image} name="image" onChange={handleChange} />
-  </div>
-  <div className="mb-3">
-    <label className="form-label">Food Name</label>
-    <input type="text" className="form-control" id="foodname" value={formData.food_name} name="food_name" onChange={handleChange}/>
-  </div>
-   <div className="mb-3">
-    <label className="form-label">Rating</label>
-    <input type="number" className="form-control" id="rating" value={formData.rating} name="rating" onChange={handleChange}/>
-  </div>
-  <div className="mb-3">
-    <label className="form-label">Price</label>
-    <input type="number" className="form-control" id="price" value={formData.price} name="price" onChange={handleChange}/>
-  </div>
-  <div className="mb-3">
-  <label className="form-label">Description</label>
-  <textarea name="description" className="form-control" id="description" rows="3" value={formData.description} onChange={handleChange}></textarea>
-</div>
-<div className="text-center">
-    <button type="button" className="btn btn-secondary mb-5 me-3" onClick={onCancel}>CANCEL</button>
-    <button type="submit" className="btn btn-primary mb-5">ADD MENU</button>
-  </div>
-</form>
-</section>
+            <h2 className="fon3">Add Dish</h2>
+            <form onSubmit={handleSubmit}>
+                <div className="addmenu-form">
+                    <div className="mb-3">
+                        <label className="form-label">Image URL</label>
+                        <input type="text" className="form-control" id="url" value={formData.image} name="image" onChange={handleChange} />
+                    </div>
+                    <div className="mb-3">
+                        <label className="form-label">Food Name</label>
+                        <input type="text" className="form-control" id="foodname" value={formData.food_name} name="food_name" onChange={handleChange}/>
+                    </div>
+                    <div className="mb-3">
+                        <label className="form-label">Rating</label>
+                        <input type="number" className="form-control" id="rating" value={formData.rating} name="rating" onChange={handleChange}/>
+                    </div>
+                    <div className="mb-3">
+                        <label className="form-label">Price</label>
+                        <input type="number" className="form-control" id="price" value={formData.price} name="price" onChange={handleChange}/>
+                    </div>
+                    <div className="mb-3">
+                        <label className="form-label">Description</label>
+                        <textarea name="description" className="form-control" id="description" rows="3" value={formData.description} onChange={handleChange}></textarea>
+                    </div>
+                    <div className="text-center">
+                        <button type="button" className="btn btn-secondary mb-5 me-3" onClick={onCancel}>CANCEL</button>
+                        <button type="submit" className="btn btn-primary mb-5">ADD MENU</button>
+                    </div>
+                </div>
+            </form>
+        </section>
         </>
     )
 }

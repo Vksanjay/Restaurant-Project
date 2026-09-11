@@ -219,16 +219,23 @@ html {
     }
 }
 @media (max-width: 576px) {
-    .addmenupage {
+    .fon3{
+        font-size: 26px;
         padding-top: 80px;
+        margin-bottom: 10px;
     }
-    .fon3 {
-        font-size: 28px;
-        margin-bottom: 15px;
-    }
-    .con {
+    .addmenu-form {
         width: 100%;
         padding: 0 15px;
+    }
+    .addmenu-form .form-label {
+        font-size: 14px;
+    }
+    .addmenu-form .form-control {
+        font-size: 14px;
+    }
+    .addmenu-form button {
+        font-size: 14px;
     }
 }
 .menupage {
