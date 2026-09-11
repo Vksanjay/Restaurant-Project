@@ -78,8 +78,7 @@ function Updatemenu({ menudata, onUpdate, onCancel }) {
                         </div>
                         <div className="text-center">
                             <button type="button" className="btn btn-secondary me-3" onClick={onCancel}>CANCEL</button>
-                            <button type="submit" className="btn btn-primary">UPDATE MENU</button>
-                              
+                            <button type="submit" className="btn btn-primary">UPDATE MENU</button>      
                         </div>
                     </div>
                 </form>

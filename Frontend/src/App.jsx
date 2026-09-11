@@ -12,16 +12,16 @@ function App() {
       <Home/>
     </section>
     <section id="about">
-       <Aboutus/>
+      <Aboutus/>
     </section>
-     <section id="viewmenu">
-       <Viewmenu/>
+    <section id="viewmenu">
+      <Viewmenu/>
     </section>
     <section id="gallery">
-       <Gallery/>
+      <Gallery/>
     </section>
     <section id="contact">
-       <Contactus/>
+      <Contactus/>
     </section>
     </>
   )

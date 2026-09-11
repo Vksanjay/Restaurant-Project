@@ -203,18 +203,38 @@ html {
     color: #ffc107;
     margin-bottom: 15px;
 }
-.con {
+.addmenu-form {
     width: 50%;
-    margin-left: 20px;
     margin-top: 15px;
+    padding: 0 20px;
+}
+.addmenu-form .form-control {
+    background-color: rgba(20, 20, 20, 0.9);
+    color: white;
+    border: 1px solid #ffc107;
+}
+.addmenu-form .form-label {
+    color: white;
+}
+.addmenu-form .btn-primary {
+    background-color: #111;
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
+.addmenu-form .btn-secondary {
+    background-color: #111;
+    color: #ffc107;
+    border: 1px solid #ffc107;
 }
 @media (max-width: 768px) {
     .addmenupage {
-        padding-top: 130px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-top: 1px;
     }
-    .con {
+    .fon3{
+        font-size: 30px;
+        padding-top: 130px;
+    }
+    .addmenu-form {
         width: 85%;
     }
 }
@@ -347,6 +367,24 @@ html {
     width: 50%;
     margin-top: 15px;
     padding: 0 20px;
+}
+.update-form .form-control {
+    background-color: rgba(20, 20, 20, 0.9);
+    color: white;
+    border: 1px solid #ffc107;
+}
+.update-form .form-label {
+    color: white;
+}
+.update-form .btn-primary {
+    background-color: #111;
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
+.update-form .btn-secondary {
+    background-color: #111;
+    color: #ffc107;
+    border: 1px solid #ffc107;
 }
 @media (max-width: 768px) {
     .updatepage {
@@ -555,15 +593,13 @@ html {
     margin-top: 10px;
     padding: 0 15px;
 }
+.contact-form .form-control {
+    background-color: rgba(20, 20, 20, 0.9);
+    color: white;
+    border: 1px solid #ffc107;
+}
 .contact-form .form-label {
     color: white;
-}
-.contact-form .form-control {
-    background-color: rgba(255, 255, 255, 0.9);
-}
-.contact-form .form-control:focus {
-    border-color: #ffc107;
-    box-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
 }
 .contact-form .but2 {
     background-color: transparent;
